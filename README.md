@@ -16,7 +16,7 @@ $ sudo apt install openjdk-8-jre-headless -y
 #### filebeat[12825]: Exiting: registry file version 1 not supported
 Если при запуске filebeat вылетает эта ошибка, то нужно остановить filebeat и запустить команду sudo rm -rf /var/lib/filebeat/
 
-
+--------------------------------------------
 
 https://docs.graylog.org/docs/ubuntu
 
@@ -34,6 +34,8 @@ https://www.elastic.co/blog/configuring-ssl-tls-and-https-to-secure-elasticsearc
 https://www.elastic.co/guide/en/beats/filebeat/current/configuration-ssl.html
 
 https://discuss.elastic.co/t/metricbeat-certificate-signed-by-unknow-authority/288391
+
+https://www.elastic.co/guide/en/kibana/8.3/kibana-encryption-keys.html
 
 #### Настройка elasticsearch
 https://stackoverflow.com/questions/50609417/elasticsearch-error-cluster-block-exception-forbidden-12-index-read-only-all#:~:text=This%20happens%20when%20Elasticsearch%20thinks,many%20gigabytes%20of%20free%20space.
